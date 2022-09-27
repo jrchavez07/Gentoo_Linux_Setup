@@ -1,0 +1,37 @@
+app-arch/zip natspec bzip2 unicode
+# required by dev-util/strace-5.17::gentoo[unwind,static]
+# required by dev-util/strace (argument)
+>=sys-libs/libunwind-1.6.2 static-libs
+# required by sys-libs/libunwind-1.6.2::gentoo[zlib]
+# required by dev-util/strace-5.17::gentoo[unwind,static]
+# required by dev-util/strace (argument)
+>=sys-libs/zlib-1.2.12-r2 static-libs
+# required by app-emulation/virt-manager-4.0.0::gentoo[-test,gtk]
+# required by app-emulation/virt-manager (argument)
+>=net-misc/spice-gtk-0.39-r2 usbredir
+# required by app-emulation/libvirt-8.2.0::gentoo[virt-network]
+# required by app-emulation/libvirt-glib-4.0.0::gentoo
+# required by app-emulation/virt-manager-4.0.0::gentoo[-test]
+# required by app-emulation/virt-manager (argument)
+>=net-dns/dnsmasq-2.85 script
+# required by dev-embedded/arduino-1.8.7::gentoo
+# required by dev-embedded/arduino (argument)
+>=dev-util/astyle-3.1-r2 java
+# required by kde-apps/okular-21.12.3::gentoo[pdf]
+# required by okular (argument)
+>=app-text/poppler-22.05.0 nss
+# required by media-libs/phonon-vlc-0.11.3-r1::gentoo
+# required by media-libs/phonon-4.11.1-r1::gentoo[vlc]
+# required by kde-apps/okular-21.12.3::gentoo
+# required by okular (argument)
+>=media-video/vlc-3.0.17.3-r2 ogg
+# required by app-office/libreoffice-7.3.3.2-r3::gentoo
+# required by app-office/libreoffice (argument)
+>=dev-libs/xmlsec-1.2.33 nss
+# required by media-gfx/graphviz-2.50.0::gentoo
+# required by app-doc/doxygen-1.9.4-r2::gentoo[dot]
+# required by app-doc/doxygen (argument)
+>=media-libs/gd-2.3.3-r1 truetype fontconfig
+# required by www-client/chromium-104.0.5112.101::gentoo
+# required by www-client/chromium (argument)
+>=net-libs/nodejs-18.6.0 inspector
